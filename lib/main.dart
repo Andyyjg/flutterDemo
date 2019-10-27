@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
         home: Tabs(),
-        initialRoute: '/appbar',
+        initialRoute: '/',
         onGenerateRoute:onGenerateRoute,
         );
   }
