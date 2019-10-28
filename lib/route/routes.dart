@@ -7,6 +7,7 @@ import '../pages/appBar.dart';
 import '../pages/tabController.dart';
 import '../pages/user.dart';
 import '../pages/buttons.dart';
+import '../pages/textFiledpage.dart';
 
 final routes = {
   '/': (context) => Tabs(),
@@ -15,7 +16,8 @@ final routes = {
   '/appbar':(context)=>AppBarPage(),
   '/tabcontroller':(context)=>TabControllerPage(),
   '/user':(context)=>UserPage(),
-  '/button':(context)=>ButtonspPage()
+  '/button':(context)=>ButtonspPage(),
+  '/textfiled':(context)=>TextFiledPage()
 };
 
 
