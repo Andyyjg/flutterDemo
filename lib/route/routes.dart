@@ -4,12 +4,18 @@ import '../pages/Home.dart';
 import '../pages/search.dart';
 import '../pages/tabs.dart';
 import '../pages/appBar.dart';
+import '../pages/tabController.dart';
+import '../pages/user.dart';
+import '../pages/buttons.dart';
 
 final routes = {
   '/': (context) => Tabs(),
   '/search': (context,{arguments}) => SearchPage(arguments:arguments),
   '/cata': (context,{arguments}) => Catapage(arguments:arguments),
-  '/appbar':(context)=>AppBarPage()
+  '/appbar':(context)=>AppBarPage(),
+  '/tabcontroller':(context)=>TabControllerPage(),
+  '/user':(context)=>UserPage(),
+  '/button':(context)=>ButtonspPage()
 };
 
 

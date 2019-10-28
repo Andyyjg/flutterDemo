@@ -7,11 +7,12 @@ class AppBarPage extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return DefaultTabController(
-      length: 2,
+
+      length: 6,
       child: Scaffold(
           appBar: AppBar(
             title: Text('AppBarDemo'),
-            centerTitle: true,//标题剧中显示
+            centerTitle: true, //标题剧中显示
 //        backgroundColor: Colors.red,//背景颜色
 //          leading: IconButton(
 //            //导航前边图标
@@ -30,9 +31,27 @@ class AppBarPage extends StatelessWidget {
               )
             ],
             bottom: TabBar(
-              tabs: <Widget>[//顶部tab
-                  Tab(text: '热门',),
-                Tab(text: '推荐',)
+              isScrollable: true,//允许滚动
+              tabs: <Widget>[
+                //顶部tab
+                Tab(
+                  text: '热门',
+                ),
+                Tab(
+                  text: '推荐',
+                ),
+                Tab(
+                  text: '热门',
+                ),
+                Tab(
+                  text: '推荐',
+                ),
+                Tab(
+                  text: '热门',
+                ),
+                Tab(
+                  text: '推荐',
+                ),
               ],
             ),
           ),
@@ -43,23 +62,94 @@ class AppBarPage extends StatelessWidget {
                 children: <Widget>[
                   ListTile(
                     title: Text('第一个tab'),
-                  ),ListTile(
+                  ),
+                  ListTile(
                     title: Text('第一个tab'),
-                  ),ListTile(
+                  ),
+                  ListTile(
                     title: Text('第一个tab'),
-                  ),ListTile(
+                  ),
+                  ListTile(
                     title: Text('第一个tab'),
                   ),
                 ],
-              ),ListView(
+              ),
+              ListView(
                 children: <Widget>[
                   ListTile(
                     title: Text('第二个tab'),
-                  ),ListTile(
+                  ),
+                  ListTile(
                     title: Text('第二个tab'),
-                  ),ListTile(
+                  ),
+                  ListTile(
                     title: Text('第二个tab'),
-                  ),ListTile(
+                  ),
+                  ListTile(
+                    title: Text('第二个tab'),
+                  ),
+                ],
+              ),
+              ListView(
+                children: <Widget>[
+                  ListTile(
+                    title: Text('第一个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第一个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第一个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第一个tab'),
+                  ),
+                ],
+              ),
+              ListView(
+                children: <Widget>[
+                  ListTile(
+                    title: Text('第二个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第二个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第二个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第二个tab'),
+                  ),
+                ],
+              ),
+              ListView(
+                children: <Widget>[
+                  ListTile(
+                    title: Text('第一个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第一个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第一个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第一个tab'),
+                  ),
+                ],
+              ),
+              ListView(
+                children: <Widget>[
+                  ListTile(
+                    title: Text('第二个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第二个tab'),
+                  ),
+                  ListTile(
+                    title: Text('第二个tab'),
+                  ),
+                  ListTile(
                     title: Text('第二个tab'),
                   ),
                 ],
