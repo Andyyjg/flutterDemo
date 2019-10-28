@@ -39,10 +39,28 @@ class _TabsState extends State<Tabs> {
       appBar: AppBar(
         title: Text('flutterDemo'),
       ),
+      floatingActionButton: Container(
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(40), color: Colors.white),
+        margin: EdgeInsets.only(top: 3),
+        //上边距10
+        padding: EdgeInsets.all(1),
+        width: 70,
+        height: 70,
+        child: FloatingActionButton(
+            child: Icon(Icons.add),
+            onPressed: () {
+              setState(() {
+                this.index = 1;
+              });
+            },
+            backgroundColor: this.index == 1 ? Colors.red : Colors.blue),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: this._pageList[this.index],
       //地步导航条
       bottomNavigationBar: BottomNavigationBar(
-        fixedColor: Colors.purple,
+        fixedColor: Colors.red,
         type: BottomNavigationBarType.fixed,
         //设置可以有多个按钮
         iconSize: 30,

@@ -19,6 +19,12 @@ class ButtonspPage extends StatelessWidget {
             )
           ],
         ),
+        floatingActionButton: FloatingActionButton(//浮动按钮
+          backgroundColor: Colors.yellow,
+         child:Icon(Icons.add,color: Colors.black,size: 40,),//修改icon颜色
+          onPressed: (){},
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,//位置调整
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
