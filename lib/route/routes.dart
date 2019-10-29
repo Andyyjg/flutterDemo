@@ -9,6 +9,8 @@ import '../pages/user.dart';
 import '../pages/buttons.dart';
 import '../pages/textFiledpage.dart';
 import '../pages/checkBoxDemo.dart';
+import '../pages/radioPage.dart';
+import '../pages/formDemo.dart';
 
 final routes = {
   '/': (context) => Tabs(),
@@ -19,7 +21,9 @@ final routes = {
   '/user':(context)=>UserPage(),
   '/button':(context)=>ButtonspPage(),
   '/textfiled':(context)=>TextFiledPage(),
-  '/check':(context)=>CheckBoxPage()
+  '/check':(context)=>CheckBoxPage(),
+  '/radio':(context)=>RadioDemoPage(),
+  '/form':(context)=>FormDemoPage()
 };
 
 
