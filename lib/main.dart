@@ -1,6 +1,7 @@
 //引入基本库
 import 'dart:ui' as prefix0;
 
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter/material.dart';
 import 'route/routes.dart';
 import './pages/tabs.dart';
@@ -14,6 +15,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build  MaterialApp是根组建
     return MaterialApp(
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate
+      ],
+      supportedLocales: [
+        const Locale('zh','CH'),
+        const Locale('en','US'),
+      ],
       debugShowCheckedModeBanner: false,
       home: Tabs(),
       initialRoute: '/date',
