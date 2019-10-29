@@ -11,6 +11,7 @@ import '../pages/textFiledpage.dart';
 import '../pages/checkBoxDemo.dart';
 import '../pages/radioPage.dart';
 import '../pages/formDemo.dart';
+import '../pages/dateDemo.dart';
 
 final routes = {
   '/': (context) => Tabs(),
@@ -23,7 +24,8 @@ final routes = {
   '/textfiled':(context)=>TextFiledPage(),
   '/check':(context)=>CheckBoxPage(),
   '/radio':(context)=>RadioDemoPage(),
-  '/form':(context)=>FormDemoPage()
+  '/form':(context)=>FormDemoPage(),
+  '/date':(context)=>DateDemoPage()
 };
 
 
