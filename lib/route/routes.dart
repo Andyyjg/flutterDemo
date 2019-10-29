@@ -8,6 +8,7 @@ import '../pages/tabController.dart';
 import '../pages/user.dart';
 import '../pages/buttons.dart';
 import '../pages/textFiledpage.dart';
+import '../pages/checkBoxDemo.dart';
 
 final routes = {
   '/': (context) => Tabs(),
@@ -17,7 +18,8 @@ final routes = {
   '/tabcontroller':(context)=>TabControllerPage(),
   '/user':(context)=>UserPage(),
   '/button':(context)=>ButtonspPage(),
-  '/textfiled':(context)=>TextFiledPage()
+  '/textfiled':(context)=>TextFiledPage(),
+  '/check':(context)=>CheckBoxPage()
 };
 
 

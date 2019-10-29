@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Tabs(),
-      initialRoute: '/textfiled',
+      initialRoute: '/check',
       onGenerateRoute: onGenerateRoute,
     );
   }
