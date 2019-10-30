@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build  MaterialApp是根组建
     return MaterialApp(
+      //组件国际化设置
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       ],
       debugShowCheckedModeBanner: false,
       home: Tabs(),
-      initialRoute: '/date',
+      initialRoute: '/swiper',
       onGenerateRoute: onGenerateRoute,
     );
   }

@@ -12,6 +12,8 @@ import '../pages/checkBoxDemo.dart';
 import '../pages/radioPage.dart';
 import '../pages/formDemo.dart';
 import '../pages/dateDemo.dart';
+import '../pages/otherDatePicker.dart';
+import '../pages/swiperDemoPage.dart';
 
 final routes = {
   '/': (context) => Tabs(),
@@ -25,7 +27,9 @@ final routes = {
   '/check':(context)=>CheckBoxPage(),
   '/radio':(context)=>RadioDemoPage(),
   '/form':(context)=>FormDemoPage(),
-  '/date':(context)=>DateDemoPage()
+  '/date':(context)=>DateDemoPage(),
+  '/other':(context)=>OtherDatePicker(),
+  '/swiper':(context)=>SwiperDemoPage()
 };
 
 

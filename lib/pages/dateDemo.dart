@@ -28,7 +28,9 @@ class _DateDemoPageState extends State<DateDemoPage> {
         context: context,
         initialDate: now,
         firstDate: DateTime(1980),
-        lastDate: DateTime(2100));
+        lastDate: DateTime(2100),
+//        locale: Locale('zh')
+    );
     setState(() {
       this.now = result;
     });
