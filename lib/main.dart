@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       ],
       debugShowCheckedModeBanner: false,
       home: Tabs(),
-      initialRoute: '/swiper',
+      initialRoute: '/http',
       onGenerateRoute: onGenerateRoute,
     );
   }

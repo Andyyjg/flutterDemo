@@ -14,6 +14,8 @@ import '../pages/formDemo.dart';
 import '../pages/dateDemo.dart';
 import '../pages/otherDatePicker.dart';
 import '../pages/swiperDemoPage.dart';
+import '../pages/expansionTileDemo.dart';
+import '../http/gttpDemo..dart';
 
 final routes = {
   '/': (context) => Tabs(),
@@ -29,7 +31,9 @@ final routes = {
   '/form':(context)=>FormDemoPage(),
   '/date':(context)=>DateDemoPage(),
   '/other':(context)=>OtherDatePicker(),
-  '/swiper':(context)=>SwiperDemoPage()
+  '/swiper':(context)=>SwiperDemoPage(),
+  '/expansion':(context)=>ExpansionTilePage(),
+  '/http':(context)=>HttpDemo()
 };
 
 
