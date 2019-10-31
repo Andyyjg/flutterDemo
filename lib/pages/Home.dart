@@ -49,6 +49,15 @@ class _HomePageState extends State<HomePage> {
             onPressed: (){
               Navigator.pushNamed(context, '/appbar');
             },
+          ),
+          SizedBox(
+            height: 200,
+          ),
+          RaisedButton(
+            child: Text('跳转看电影'),
+            onPressed: (){
+              Navigator.pushNamed(context, '/movie');
+            },
           )
         ],
       ),

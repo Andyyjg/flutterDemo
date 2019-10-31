@@ -16,6 +16,7 @@ import '../pages/otherDatePicker.dart';
 import '../pages/swiperDemoPage.dart';
 import '../pages/expansionTileDemo.dart';
 import '../http/gttpDemo..dart';
+import '../pages/movieListPage.dart';
 
 final routes = {
   '/': (context) => Tabs(),
@@ -33,7 +34,8 @@ final routes = {
   '/other':(context)=>OtherDatePicker(),
   '/swiper':(context)=>SwiperDemoPage(),
   '/expansion':(context)=>ExpansionTilePage(),
-  '/http':(context)=>HttpDemo()
+  '/http':(context)=>HttpDemo(),
+  '/movie':(context)=>MovieListPage()
 };
 
 
